@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gif | Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#333;">
+        <div class="container">
+            <a class="navbar-brand" href="gif.html">
+                <img src="images/Rotating_earth.gif" width="30" height="30" class="d-inline-block align-top" alt="gifimage">
+                Gif-Generator
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Body -->
+    <div class="container" id="scontainer">
+        <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+            <div class="jumbotron text-center" id="fjumbotron">
+                <h1>Gif Generator</h1>
+                <p>Generate all kinds of Gifs here!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-6 col-lg-6 col-sm-6">
+                <div class="card" id="fcard">
+                    <div class="card-head text-center">
+                        <h5 class="card-title">New Buttons!</h5>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="button-input"></label>
+                               <input type="text" class="form-control" id="button-input" aria-describedby="textHelp" placeholder="Enter Gif topic here">
+                               <small id="textHelp" class="form-text text-muted">You may hit Enter to add button.</small>
+                                <div class="text-center">
+                                     <input id="add-button" type="submit" value="Add button">
+                                </div>
+                             </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
+                <div class="card" id="tcard">
+                    <div class="card-head text-center">
+                        <h5 class="card-title">
+                            Gif Buttons
+                        </h5>
+                    </div>
+                    <div class="card-body text-center" id="scard"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+                <div class="card">
+                    <div class="card-head text-center">
+                        <h5 class="card-title">Gifs section</h5>
+                    </div>
+                    <div class="card-body" id="dcard"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to jQery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Link to Javascript -->
+    <script src="gif.js"></script>
+
+</body>
+</html>

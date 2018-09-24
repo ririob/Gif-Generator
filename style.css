@@ -1,0 +1,52 @@
+/* Body */
+
+body {
+    background-color: white;
+}
+#scontainer {
+    background-color: aliceblue;
+}
+
+/* Jumbotrons */
+
+#fjumbotron {
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: aliceblue;
+}
+
+/* Cards */
+.card {
+    margin: 30px;
+    padding: 0px;
+    border-radius: 7px;
+}
+.card-head {
+    background-color: #333;
+    color: aliceblue;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 7px;
+}
+#scard {
+    margin: 30px;
+}
+
+/* Buttons */
+.btn {
+    color:white;
+    background:none;
+    background-color:#B3B3B3;
+    border-radius:5px;
+    text-shadow:none;
+    margin: 10px;
+}
+#add-button {
+    margin: 10px;
+    background: none;
+    background-color: #B3B3B3;
+    color: white;
+    border-radius: 5px;
+    text-shadow: none;
+}
