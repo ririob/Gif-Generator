@@ -81,7 +81,7 @@ $(document).ready(function() {
   topics.forEach(function(topic) {
       console.log(topic);
     $(document).on("click", "button", function() {
-      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=9oQvRPi6s7AzEMcHRHx2Xnc9imoT9oTC";
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topics + "&api_key=9oQvRPi6s7AzEMcHRHx2Xnc9imoT9oTC";
       $.ajax({
           url: queryURL,
           method: "GET"
