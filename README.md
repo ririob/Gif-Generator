@@ -1,5 +1,5 @@
 # Gif-Generator
-This is a dynamic web page that generate gifs oof your choice. There is a section where you can add any gif button you woulf like to generate, another section where you click your gif buttons and another section where your favorite gifs appear.
+This is a dynamic web page that generate gifs of your choice. There is a section where you can add any gif button you would like to generate, another section where you click your gif buttons and another section where your favorite gifs appear.
 <!-- create array variable -->
 <!-- function to generate buttons -->
 <!-- function to add buttons -->
